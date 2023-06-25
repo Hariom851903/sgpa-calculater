@@ -75,8 +75,8 @@ function Setfront({ ontotal, value }) {
   return (
     <>
       {total ? (
-        <div className="flex flex-col h-full w-full items-center mt-1">
-          <form  onSubmit={clicknext} className="flex flex-col h-full w-[40%] sm:w-[60%] gap-10 rounded-md bg-cyan-900 justify-center items-center shadow-lg p-3">
+        <div className="flex flex-col h-full w-full items-center mt-1 p-5">
+          <form  onSubmit={clicknext} className="flex flex-col h-full w-[95%] sm:w-[60%] gap-10 rounded-md bg-cyan-900 justify-center items-center shadow-lg p-3">
             <div className="grid w-full max-w-sm items-center gap-1.5">
               <label className="text-lg font-medium leading-none text-neutral-400">
                 Marks of Subject: {changebutton ? '' : mark.length + 1}
